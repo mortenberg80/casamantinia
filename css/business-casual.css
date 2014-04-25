@@ -83,6 +83,15 @@ hr {
   margin: 0 auto 0;
 }
 
+.img-right {
+  float: none;
+  margin: 0 auto 0;
+}
+
+.img-center {
+  margin: 0 auto 0;
+}
+
 footer {
   background: #fff;
   background: rgba(255,255,255,0.9);
@@ -104,7 +113,11 @@ footer p {
   margin: 0;
   padding: 30px 0 10px;
   color: #fff;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.brand a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .top-divider {
@@ -171,4 +184,18 @@ footer p {
         display: table;
         clear: both;
     }
+}
+
+.roman-list li {
+  list-style-type: upper-roman;
+}
+
+.clean-list li {
+  list-style: none;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
+.cv-beskrivelse {
+  margin-top: 20px;
 }
