@@ -196,6 +196,11 @@ footer p {
   line-height: 1.5;
 }
 
+dl dt, dl dd{
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
 .cv-beskrivelse {
   margin-top: 20px;
 }
