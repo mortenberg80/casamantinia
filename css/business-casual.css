@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-p {
+p, dl {
   font-size: 1.25em;
   line-height: 1.6;
   color: #000;
@@ -196,11 +196,23 @@ footer p {
   line-height: 1.5;
 }
 
-dl dt, dl dd{
-  font-size: 1.25em;
-  line-height: 1.5;
-}
-
 .cv-beskrivelse {
   margin-top: 20px;
+}
+
+.text-small {
+  font-size: 0.75em;
+}
+
+.text-medium {
+  font-size: 1em;
+}
+
+@media (min-width: 768px) {
+  .dl-small dt {
+    width: 100px;
+  }
+  .dl-small dd {
+    margin-left: 120px;
+  }
 }
