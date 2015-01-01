@@ -10,14 +10,14 @@
     <title> {{ page.title }} </title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ site.path }}/css/bootstrap.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
-    <link href="/css/business-casual.css" rel="stylesheet">
+    <link href="{{ site.path }}/css/business-casual.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="brand"><a href="/">mantinia as</a></div>
+    <div class="brand"><a href="{{ site.path }}/">mantinia as</a></div>
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -27,17 +27,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">mantinia as</a>
+                <a class="navbar-brand" href="{{ site.path }}/">mantinia as</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/utvikling/">Utvikling</a>
+                    <li><a href="{{ site.path }}/utvikling/">Mantinia<br/>Utvikling AS</a>
                     </li>
-                    <li><a href="/fritidsboliger/">Fritidsboliger</a>
+                    <li><a href="{{ site.path }}/fritidsboliger/">Mantinia<br/>Fritidsboliger</a>
                     </li>
-                    <li><a href="/idrettshaller/">Idrettshaller</a>
+                    <li><a href="{{ site.path }}/idrettshaller/">Mantinia<br/>Idrettshaller</a>
+                    </li>
+                    <li><a href="{{ site.path }}/idrettshaller/">Casa<br/>Mantinia</a>
                     </li>
                 </ul>
             </div>
@@ -62,8 +64,8 @@
     </footer>
 
     <!-- JavaScript -->
-    <script src="/js/jquery-1.10.2.js"></script>
-    <script src="/js/bootstrap.js"></script>
+    <script src="{{ site.path }}/js/jquery-1.10.2.js"></script>
+    <script src="{{ site.path }}/js/bootstrap.js"></script>
 </body>
 
 </html>
