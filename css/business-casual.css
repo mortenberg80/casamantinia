@@ -18,9 +18,17 @@ p, dl {
   color: #000;
 }
 
+ul {
+  font-size: 1.25em;
+}
+
 hr {
   border-color: #999999;
   max-width: 400px;
+}
+
+.image-section {
+  margin-bottom: 50px ;
 }
 
 .brand,
