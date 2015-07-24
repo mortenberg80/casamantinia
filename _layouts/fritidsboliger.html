@@ -78,6 +78,13 @@
     <!-- JavaScript -->
     <script src="{{ site.path }}/js/jquery-1.10.2.js"></script>
     <script src="{{ site.path }}/js/bootstrap.js"></script>
+    <script src="{{ site.path }}/js/jquery.fitvids.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Target your .container, .wrapper, .post, etc.
+            $(".embedded-video").fitVids();
+        });
+    </script>
 </body>
 
 </html>
