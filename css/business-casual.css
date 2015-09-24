@@ -22,6 +22,16 @@ ul, ol {
   font-size: 1.25em;
 }
 
+ol ol {
+  list-style-type: lower-alpha;
+  font-size: 0.9em;
+}
+
+.small-list {
+  list-style-type: lower-alpha;
+  font-size: 1em;
+}
+
 hr {
   border-color: #999999;
   max-width: 400px;
@@ -226,4 +236,9 @@ footer p {
 
 .embedded-video {
   margin-bottom: 50px;
+}
+
+.tooltipped {
+  border-bottom: 1px dashed;
+  cursor: help;
 }
