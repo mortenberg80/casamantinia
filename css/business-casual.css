@@ -242,3 +242,27 @@ footer p {
   border-bottom: 1px dashed;
   cursor: help;
 }
+@media (min-width: 0px) {
+  .galleria {
+    height: 200px;
+  }
+}
+@media (min-width: 768px) {
+  .galleria {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .galleria {
+    height: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  .galleria {
+    height: 500px;
+  }
+}
+.galleria { 
+  width: 100%;
+  background: #000
+}
