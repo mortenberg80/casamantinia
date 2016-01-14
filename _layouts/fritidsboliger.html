@@ -15,6 +15,12 @@
     <!-- Add custom CSS here -->
     <link href="{{ site.path }}/css/business-casual.css" rel="stylesheet">
     <!--<link href="/css/development.css" rel="stylesheet">-->
+
+    <!-- JavaScript -->
+    <script src="{{ site.path }}/js/jquery-1.10.2.js"></script>
+    <script src="{{ site.path }}/js/bootstrap.js"></script>
+    <script src="{{ site.path }}/js/jquery.fitvids.js"></script>
+    <script src="{{ site.path }}/js/galleria/galleria-1.4.2.min.js"></script>
 </head>
 
 <body>
@@ -75,18 +81,10 @@
         </div>
     </footer>
 
-    <!-- JavaScript -->
-    <script src="{{ site.path }}/js/jquery-1.10.2.js"></script>
-    <script src="{{ site.path }}/js/bootstrap.js"></script>
-    <script src="{{ site.path }}/js/jquery.fitvids.js"></script>
-    <script src="{{ site.path }}/js/galleria/galleria-1.4.2.min.js"></script>
-
     <script>
         $(document).ready(function(){
             // Target your .container, .wrapper, .post, etc.
             $(".embedded-video").fitVids();
-            Galleria.loadTheme('{{ site.path }}/js/galleria/themes/classic/galleria.classic.min.js');
-            Galleria.run('.galleria');
         });
     </script>
 </body>
