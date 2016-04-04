@@ -264,5 +264,9 @@ footer p {
 }
 .galleria { 
   width: 100%;
-  background: #000
+  background: #FFF
+}
+
+.galleria-theme-classic {
+  background: #FFF;
 }
