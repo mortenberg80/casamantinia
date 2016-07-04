@@ -287,9 +287,9 @@ footer p {
 }
 .galleria { 
   width: 100%;
-  background: #FFF
+  background: rgba(255,255,255,0.0);
 }
 
 .galleria-theme-classic {
-  background: #FFF;
+  background: rgba(255,255,255,0.0);
 }
