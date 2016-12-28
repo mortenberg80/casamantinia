@@ -293,3 +293,7 @@ footer p {
 .galleria-theme-classic {
   background: rgba(255,255,255,0.0);
 }
+
+.right-column li {
+  margin-bottom: 20px;
+}
