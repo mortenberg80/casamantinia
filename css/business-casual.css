@@ -324,3 +324,7 @@ footer p {
   padding: 10px;
   margin-bottom: 20px;
 }
+
+.solgt {
+  -webkit-filter: brightness(50%);
+}
